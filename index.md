@@ -9,4 +9,4 @@ Post your questions on the course sub-reddit [deeplearningaudio](https://reddit.
 
 ___
 
-&copy [Iran R. Roman](iranroman.github.io) 2022
+&copy; [Iran R. Roman](https://iranroman.github.io) 2022
