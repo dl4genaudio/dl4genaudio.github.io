@@ -3,9 +3,15 @@
 # Deep Learning for Music Information Retrieval: Generative Models
 <img src="assets/home.jpg" alt="drawing" width="1000"/>
 
+Official website for the graduate-level course covering the deep learning theory, literature, and practice applied to digital audio. More specifically, the course covers generative models (like autoencoders).
+
+Taught at the National Autonomous University of Mexico (UNAM)[https://www.unam.mx/] during the spring semester of 2022 (January 31st - May 27th) by [Iran R. Roman](https://iranroman.github.io). 
+
+Wednesdays from 5PM to 8PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et)) over Zoom. If you are interested in joining the course, please email the instructor: iran [at] ccrma.stanford.edu
+
 ## Getting help
 
-Post your questions on the course sub-reddit [deeplearningaudio](https://reddit.com/r/deeplearningaudio)
+Post your questions on the course sub-reddit [deeplearningaudio](https://reddit.com/r/deeplearningaudio).
 
 ___
 
