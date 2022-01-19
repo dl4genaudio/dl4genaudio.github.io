@@ -17,7 +17,7 @@ This is a graduate-level course that assumes knowledge of digital audio signal p
 
 If you need to review these concepts, checkout the following:
 
-* [Introduction to digital filters](https://ccrma.stanford.edu/~jos/filters/filters.html) (make sure you understand everything in Chaper 1)
+* [Introduction to digital filters](https://ccrma.stanford.edu/~jos/filters/filters.html) (make sure you understand everything in Chapter 1)
 * [Python review](https://pythonguide.readthedocs.io/en/latest/python/review.html#)
 * [Chain rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/a/chain-rule-review)
 * [Linear algebra](https://cs229.stanford.edu/section/cs229-linalg.pdf) (at least sections 1, 2, and most of 3)
