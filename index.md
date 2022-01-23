@@ -27,11 +27,11 @@ Or make an online search for other materials covering these concepts.
 
 ## Course logistics
 
-Course runs from January 31st to May 27 (2022) and meets Wednesdays from 5PM to 8PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et)) over Zoom. 
+The course runs from January 31st to May 27 (2022) and meets Wednesdays from 5PM to 8PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et)) over Zoom. 
 
-If you are not affiliated with UNAM and are interested in joining the course (it's free, by the way), please email the instructor. The course will welcome students from other institutions. 
+If you are not affiliated with UNAM and are interested in joining the course (it's free, by the way), please email the instructor. The course will welcome all students who can meet the course prerequisites.
 
-All course materials are in English (since all relevant literature in this field of research is in Enligh). However, the lectures will be delivered in Spanish (the class is taught at [UNAM](https://www.unam.mx/) after all). Some guest lectures will be delivered in English. Strong knowledge of English reading, writting, and speaking is assumed.
+All course materials are in English (since all relevant literature in this field of research is in Enligh). However, the lectures will be delivered in Spanish (remember the class is taught at [UNAM](https://www.unam.mx/)). Some guest lectures will be delivered in English. Strong knowledge of English reading, writting, and speaking is assumed.
 
 ## Getting help
 
