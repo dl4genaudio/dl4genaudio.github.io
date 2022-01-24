@@ -46,6 +46,8 @@
 
 <img src="../assets/frequency-domain.png" alt="drawing" width="400"/>
 
+* Figure 1.2 shows a spectrogram. What is the relationship between a spectrogram and the DFT?
+
 * Stop and think: does the DFT create or solve issues associated with the dimensionality of digital audio?
 
 # [Homework 1: Digital audio and the DFT](https://github.com/dl4genaudio/assignments/hw1.ipynb)
