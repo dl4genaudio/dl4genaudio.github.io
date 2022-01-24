@@ -28,6 +28,8 @@
 
 * After proper digitization, we end up with a "time-series" signal with an associated sampling rate, bit depth, and computer number format.
 
+* Stop and think: is the dimensionality of digital audio small or big? What are benefits and pitfalls that result from this? Is digital audio data dense or sparse?
+
 ## The Discrete Fourier Transform (DFT)
 
 * Analizing the content of a digital signal is hard in the time domain.
@@ -37,10 +39,14 @@
 
 * Fortunately, we can use the [DFT](https://ccrma.stanford.edu/~jos/st/DFT_Definition.html) to convert a discrete signal (or function) into a complex-valued function of frequency. 
 
+* The DFT is a simple matrix-vector operation (dot product of signal *x(t)* with thecomplex-valued DFT matrix).
+
 * In the frequency domain, we can measure the magnitude (or energy, usually in decibels) in each of the frequency bins that we obtain after carrying out the DFT. 
 <img src="../assets/frequency-domain.png" alt="drawing" width="400"/>
 
-# [Homework 1: Digital audio and the dft](https://github.com/dl4genaudio/assignments/hw1.ipynb)
+* Stop and think: does the DFT create or solve issues associated with the dimensionality of digital audio?
+
+# [Homework 1: Digital audio and the DFT](https://github.com/dl4genaudio/assignments/hw1.ipynb)
 
 ___ 
 
