@@ -9,7 +9,7 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 
 ## Course content
 
-1. [Introduction and getting all course tools](intro).
+1. [Introduction and digital audio review](intro).
 
 ## Prerequisites
 
