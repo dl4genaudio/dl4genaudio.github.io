@@ -31,14 +31,14 @@
 ## The Discrete Fourier Transform (DFT)
 
 * Analizing the content of a digital signal is hard in the time domain.
-<img src="../assets/time-domain.png" alt="drawing" width="200"/>
+<img src="../assets/time-domain.png" alt="drawing" width="400"/>
 
 * Very often, the most important content of digital time-domain signals relates to frequencies (i.e. pitch, envelopes, oscillations, etc.). 
 
 * Fortunately, we can use the [DFT](https://ccrma.stanford.edu/~jos/st/DFT_Definition.html) to convert a discrete signal (or function) into a complex-valued function of frequency. 
 
-* In the frequency domain, we can measure the magnitude (or energy) in each of the frequency bins that we obtain after carrying out the DFT. 
-<img src="../assets/frequency-domain.png" alt="drawing" width="200"/>
+* In the frequency domain, we can measure the magnitude (or energy, usually in decibels) in each of the frequency bins that we obtain after carrying out the DFT. 
+<img src="../assets/frequency-domain.png" alt="drawing" width="400"/>
 
 # [Homework 1: Digital audio and the dft](https://github.com/dl4genaudio/assignments/hw1.ipynb)
 
