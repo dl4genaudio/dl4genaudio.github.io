@@ -33,6 +33,8 @@ If you are not affiliated with UNAM and are interested in joining the course (it
 
 All course materials are in English (since all relevant literature in this field of research is in Enligh). However, the lectures will be delivered in Spanish (remember the class is taught at [UNAM](https://www.unam.mx/)). Some guest lectures will be delivered in English. Strong knowledge of English reading, writting, and speaking is assumed.
 
+Submit your homework by sending me an email with ALL the relevant files.
+
 ## Getting help
 
 Post your questions on the course sub-reddit [deeplearningaudio](https://reddit.com/r/deeplearningaudio).

@@ -50,7 +50,7 @@
 
 * Stop and think: does the DFT create or solve issues associated with the dimensionality of digital audio?
 
-# [Homework 1: Digital audio and the DFT](https://github.com/dl4genaudio/assignments/hw1.ipynb)
+# [Homework 1: Digital audio and the DFT](https://github.com/dl4genaudio/assignments/hw1.ipynb) (due Feb 8th at 11:59PM [Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ___ 
 
