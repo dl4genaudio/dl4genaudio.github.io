@@ -1,6 +1,23 @@
 | [Homepage](https://dl4genaudio.github.io) | [Course content](https://dl4genaudio.github.io/#course-content) | [Spanish](https://dl4genaudio-github-io.translate.goog/intro/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp) |
 
-# Course goal: to understand, develop, and use deep generative models
+## What can I expect from this course?
+
+* This course is research-project-based. As a result, in order to excel at completing all course goals, you will have to spend at least 10 hours of focused work per week on homework and developing your research project.
+
+* Course goals are: to understand, develop, and use deep generative models for audio (and other signals).
+
+* You will demonstrate that you have achieved the course goals by: 
+    * Completing a series of homework exercises covering theory and software development for music information retrieval, processing of big datasets, and design and optimization of state-of-the-art deep neural networks
+    * Demonstrating knowledge of current research literature in the field by participating in class with insightful, critical, and creative perspectives about the latest developments in the field
+    * Conceiving a novel research question and carrying out a high-quality research project using the techniques used in the course
+    * Writting a research paper with your research findings
+    * Curating a [github](https://github.com/) repository with clear and intuitive code that you used to develop your research paper
+    * Presenting your research project to the class at the end of the semester
+
+* Optional (but recommended if you have excelled at completing all course goals): submit your work to be published in an upcoming peer-reviewed publication, such as
+    * [The ISMIR 2022 conference](https://ismir2022.ismir.net/)
+    * [Special Issue of Computer Music Journal on Challenges and Perspectives of Latin American Computer Music](http://computermusicjournal.org/cmj-latin-america.html)
+
 
 ## Example Generative models
 
@@ -53,6 +70,10 @@
 # [Homework 1: Digital audio and the DFT](https://github.com/dl4genaudio/assignments/hw1.ipynb) 
 
 due Feb 8th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+
+* More things to do:
+    * Install in your personal computer a UNIX OS (i.e. [WSL](https://ubuntu.com/wsl)) and become familiar with a apps that are essential for the UNIX development environment (i.e. terminal, bash, pyenv with virtualenv, git).
+    * Find and read research papers that align with your interests in the proceedings of conferneces such as [ISMIR 2021](https://ismir2021.ismir.net/papers/), [CogMIR 2019](http://www.cogmir.org/wp-content/uploads/2019/08/CogMIR-2019-Program-Schedule.pdf), [ICASSP 2021](https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/Papers/AcceptedPapers.html), or do a search on google scholar for keywords that better match your interests within the scope of this course. 
 
 ___ 
 

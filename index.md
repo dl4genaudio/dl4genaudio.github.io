@@ -13,7 +13,7 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 
 ## Prerequisites
 
-This is a graduate-level course that assumes knowledge of digital audio signal processing, object-oriented programming (we will work with python3), differential calculus (chain rule), linear algebra, and basic probability/statistics. To ensure that everybody is on the same page, we will review these concepts as they become relevant to course content. However, if you have never been exposed to these concepts, this course will likely be more challenging that what it has to be.
+This is a graduate-level course that assumes knowledge of digital audio signal processing, object-oriented programming (we will work with Python3), differential calculus (chain rule), linear algebra, and basic probability/statistics. To ensure that everybody is on the same page, we will review these concepts as they become relevant to course content. However, if you have never been exposed to these concepts, this course will likely be more challenging that what it has to be.
 
 If you need to review these concepts, checkout the following:
 
