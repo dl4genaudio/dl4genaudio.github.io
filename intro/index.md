@@ -11,10 +11,10 @@
     * Demonstrating knowledge of current research literature in the field by participating in class with insightful, critical, and creative perspectives about the latest developments in the field
     * Conceiving a novel research question and carrying out a high-quality research project using the techniques used in the course
     * Writting a research paper with your research findings
-    * Curating a [github](https://github.com/) repository with clear and intuitive code that you used to develop your research paper
+    * Curating a [github](https://github.com/) repository with clear and intuitive code that you used/wrote to develop your research paper
     * Presenting your research project to the class at the end of the semester
 
-* Optional (but recommended if you have excelled at completing all course goals): submit your work to be published in an upcoming peer-reviewed publication, such as
+* Optional (but recommended if you have excelled at completing all course goals): submit your work to be included in an upcoming peer-reviewed publication, such as
     * [The ISMIR 2022 conference](https://ismir2022.ismir.net/)
     * [Special Issue of Computer Music Journal on Challenges and Perspectives of Latin American Computer Music](http://computermusicjournal.org/cmj-latin-america.html)
 
