@@ -17,13 +17,13 @@ How are these systems able to do carry out these tasks? In a nutshell, these sys
 
 Audio signals are multidimensional (In practice, any datapoint with more than three dimensions is considered to be multidimensional). The three-dimension cutt-off is based on the fact that visualization of multidimensional data is imposible (we cannot see more than three dimensions at a given point in time).
 
-Idealy, computers shold be able to process as many dimensions in data as there are available. This is what the human brain does quickly (in real time 24/7) and intelligently (optimally differentiating meaningfull and meaningless information when carrying out a task). In practice, however, a computer's processing of multidimensional signals can be complicated for two main reasons: (1) handling more data requires more time and greater computational power, and (2) algorithms may treat all data equally, which means that a computer may not know how to identify the subset of dimensions that contain the most meaninfgul information.
+Idealy, computers shold be able to process as many dimensions in data as there are available. This is what the human brain can efficiently, intelligently, and quickly do in real time 24/7 (optimally differentiating and attending meaningfull and meaningless information when carrying out a task, like listening). In practice, however, a computer's processing of multidimensional signals can be complicated for two main reasons: (1) handling more data requires more time and greater computational power, and (2) algorithms may treat all data equally, which means that a computer may not know how to identify the subset of dimensions that contain the most meaninfgul information.
 
 A good MIR engineer must be able to identify ways to reduce the dimensionality of signals to develop algorithms that can intelligently process data. Dimensionality reduction is achieved via mathematical functions that take multiple data dimensions and calculate a single value or a small groups of values that tell us how the dimensions are related to each other. More intelligent MIR algorithms are achieved by better mimicking the listening mechanisms of the brain or harnessing the mathematical properties of data. First, we will review ways to reduce the dimensionality by extracting spectral features from digital audio data.
 
 ## Spectral features in time-series signals 
 
-To simply our handling of long time-series signals (like audio), let's reduce the dimensionality by extracting spectral features. Examples of spectral features include the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). 
+To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features, one example of which are spectral features. Examples of spectral features include the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). Familiarize ourself with all the [spectral (and other) features](https://librosa.org/doc/main/feature.html#spectral-features) that you can easily extract using librosa.
 
 ## Mel-frequency Cepstral Coefficients
 
@@ -40,7 +40,7 @@ The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectra
 ## Questions to think about:
 
 * Why did we say that an object can be described by an infinite number of features?
-* Which other audio or time-series features do you know and how do they work?
+* Which other audio or time-series features do you know about and how do they work?
 
 
 ___
