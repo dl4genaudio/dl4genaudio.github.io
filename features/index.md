@@ -42,6 +42,9 @@ The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectra
 * Why did we say that an object can be described by an infinite number of features?
 * Which other audio or time-series features do you know about and how do they work?
 
+# [Homework 2: Audio features](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/audio_features.ipynb)
+
+due Feb 15th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ___
 
