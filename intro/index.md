@@ -39,6 +39,8 @@
 
 * Digitizing involves sampling and quatization.
 
+* A sampling rate comes with its Nyquist limit, which is half the sampling rate. Frequencies above the Nyquist limit will "alias" when digitized.
+
 * Digitization of a "time signal" requires the use of filtering to avoid aliasing of frequency content. 
 
 * Exercise: draw the signal-flow diagram in an analog to digital converter. Include as much detail as possible.
