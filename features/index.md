@@ -38,9 +38,12 @@ The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectra
 
 ## Dimensionality reduction via audio feature extraction
 
-The figure below shows the power of audio features to reduce the dimensionality of audio signals and visualize the differences between different kinds of audio sources. The figure plots a single feature (the spectral centroid), extracted from signals produced by different musical instruments. This single feature allows for visual inspection of the quantitative differences that separate these musical instruments.
+The figure below shows the power of audio features to reduce the dimensionality of audio signals, which can help us visualize the differences between discrete categories of audio sources.
 
 <img src="../assets/centroid_instruments.png" alt="drawing" width="400"/>
+
+The figure plots a single feature (the spectral centroid), extracted from signals produced by different musical instruments. This single feature allows for visual inspection of the quantitative properties that differentiate these musical instruments.
+
 
 * Stop and think: could extracting more audio features allow for better visualization and separation of the same signals plotted in the figure above?
 
