@@ -37,7 +37,7 @@ Next class, during the discussion session (if you come to class), you will tell 
 
 You will have 5 minutes to talk (if you come to class). You may use visual aids for your presentation.
 
-You must also write a 500 word post describing your three research papers on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/).
+You must also write a 500 word post describing the three research papers you identified on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/).
 
 Both due Feb 22nd at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
