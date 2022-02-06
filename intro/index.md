@@ -3,9 +3,7 @@
 ## What can I expect from this course?
 
 * This course is research-project-based. As a result, in order to excel at completing all course goals, you will have to spend at least 10 hours of focused work per week on homework and developing your research project.
-
 * Course goals are: to understand, develop, and use deep generative models for audio (and other signals).
-
 * You will demonstrate that you have achieved the course goals by: 
     * Completing a series of homework exercises covering theory and software development for music information retrieval, processing of big datasets, and design and optimization of state-of-the-art deep neural networks
     * Demonstrating knowledge of current research literature in the field by participating in class with insightful, critical, and creative perspectives about the latest developments in the field
@@ -13,18 +11,15 @@
     * Writting a research paper with your research findings
     * Curating a [github](https://github.com/) repository with clear and intuitive code that you used/wrote to develop your research paper
     * Presenting your research project to the class at the end of the semester
-
-
 * Final grade breakdown
     * 45% Homework\*
     * 45% Final project (code, final presentation, and paper)
     * 10% Participation in class and/or via the [course subreddit](https://reddit.com/r/deeplearningaudio)
-
 * Optional (but recommended if you have excelled at completing all course goals): submit your work to be included in an upcoming peer-reviewed publication, such as
     * [The ISMIR 2022 conference](https://ismir2022.ismir.net/)
     * [Special Issue of Computer Music Journal on Challenges and Perspectives of Latin American Computer Music](http://computermusicjournal.org/cmj-latin-america.html)
 
-\*your lowest two homework grades will be dropped.
+\*your lowest two homework grades will not be counted toward the final grade.
 
 ## Example Generative models
 
