@@ -1,14 +1,14 @@
-| [Homepage](https://dl4genaudio.github.io) | [Course content](https://dl4genaudio.github.io/#course-content) | [Spanish]() |
+| [Homepage](https://dl4genaudio.github.io) | [Course content](https://dl4genaudio.github.io/#course-content) | [Spanish](ihttps://dl4genaudio-github-io.translate.goog/pca_data/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp) |
 
 ## Audio datasets
 
 * MIR and Deep Learning are "data-driven".
 
-* This means that we need large amounts of data (in the order of thousands of "datapoints") to achieve anything.
+* This means that we "do as the data says", and as a result we need large amounts of data (in the order of thousands of "datapoints") to find "the real meaning that the data is trying to convey".
 
 * The definition of a datapoint depends on the goal or research question:
-    * it could be as short as a 200ms recording of a vowel (if the goal is, for example, to identify or generate vowels), or 
-    * as long as the entire duration of a piece of music (if the goal is, for example, generation of entire songs that mimick the style of an artist).
+    * it could be as short as a milliseconds-long recording of a vowel (if the goal is, for example, to identify or generate vowels), or 
+    * as long as the entire duration of a piece of music (if the goal is, for example, generation of entire songs that closely follow the style of an artist).
 
 * Fortunately, large amounts of data have already been curated by researchers and are easily accesible. 
 
@@ -33,7 +33,11 @@
 
 # Homework 3b
 
-During the class discussion section (or on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/) if you have to miss class), tell us about three research papers related to the course material that you have read. You will have 5 minutes to talk (if you come to class). You must also write a 500 word post describing the three papers on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/).
+Next class, during the discussion session (if you come to class), you will tell us about three research papers you have read that relate to both your research interests and the course material. 
+
+You will have 5 minutes to talk (if you come to class). You may use visual aids for your presentation.
+
+You must also write a 500 word post describing your three research papers on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/).
 
 Both due Feb 22nd at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
