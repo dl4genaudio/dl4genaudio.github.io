@@ -5,7 +5,7 @@
 
 Can a computer listen to musical sounds in the same way that humans do? Since the year 2000, this is a question that motivates the work by engineers and scientist in the field of Music Information Retrieval (MIR).
 
-When listening a short excerpt of music, the average human can identify features such as the kinds of musical instruments played (Giordano & McAdams 2010), the beat or tempo (Large et al. 2015), and the genre of music (Mace et al. 2012). Moreover, all of us have met (or are) music fans who can identify more abstract features like artists and names of songs that they are familiar with.
+When listening a short excerpt of music, the average human can identify features such as the kinds of musical instruments played (Giordano & McAdams 2010), the beat or tempo (Large et al. 2015), and the genre of music (Mace et al. 2012). Moreover, all of us have met (or are) music fans who can identify more abstract features like (just to name some of the most obvious ones) artists and names of songs that they are familiar with.
 
 In recent years, advances in MIR have resulted in numerous algorithms that allow machines to identify musical instruments, the tempo, the genre, the artist, or the name of a song. Some of these systems have even surpassed human performance levels.
 
@@ -22,7 +22,7 @@ A good MIR engineer must be able to identify ways to reduce the dimensionality o
 
 ## Spectral features in time-series signals 
 
-To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features, one example of which are spectral features. Examples of spectral features include the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). Familiarize ourself with all the [spectral (and other) features](https://librosa.org/doc/main/feature.html#spectral-features) that you can easily extract using librosa.
+To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features, one example of which are spectral features. Examples of spectral features include the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). Familiarize yourself with all the [spectral (and other) features](https://librosa.org/doc/main/feature.html#spectral-features) that you can easily extract using librosa.
 
 ## Mel-frequency Cepstral Coefficients
 
@@ -35,6 +35,14 @@ The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectra
     * Compute the dot-product between the spectra and the Mel filters.
     * Get the log10 of the resulting values.
 5. Compute the Discrete Cosine Transform of each time-bin.
+
+## Dimensionality reduction via audio feature extraction
+
+The figure below shows the power of audio features to reduce the dimensionality of audio signals and visualize the differences between different kinds of audio sources. The figure plots a single feature (the spectral centroid), extracted from signals produced by different musical instruments. This single feature allows for visual inspection of the quantitative differences that separate these musical instruments.
+
+<img src="../assets/centroid_instruments.png" alt="drawing" width="400"/>
+
+* Stop and think: could extracting more audio features allow for better visualization and separation of the same signals plotted in the figure above?
 
 ## Questions to think about:
 
