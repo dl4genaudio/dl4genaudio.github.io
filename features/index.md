@@ -45,13 +45,13 @@ The figure below shows the power of audio features to reduce the dimensionality 
 The figure plots a single feature (the spectral centroid), extracted from signals produced by different musical instruments. This single feature allows for visual inspection of the quantitative properties that differentiate these musical instruments.
 
 
-* Stop and think: could extracting more audio features allow for better visualization and separation of the same signals plotted in the figure above?
-
 ## Questions to think about:
 
-* Why did we say that an object can be described by an infinite number of features?
+* Could extracting more audio features allow for better visualization and separation of the same signals plotted in the figure above?
+* Why did we say that a real-life object (such as a digitized audio signal) can be described by an infinite number of features?
 * Which other audio or time-series features do you know about and how do they work?
 
+# [Homework 2a: More DFT](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/dft.ipynb)
 # [Homework 2: Audio features](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/audio_features.ipynb)
 
 due Feb 15th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
