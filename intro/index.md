@@ -75,7 +75,7 @@ due Feb 8th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time
 
 * More things to do:
     * Install in your personal computer a UNIX OS (i.e. [WSL](https://ubuntu.com/wsl)) and become familiar with a apps that are essential for the UNIX development environment (i.e. terminal, bash, pyenv with virtualenv, git).
-    * Find and read research papers that align with your interests in the proceedings of conferneces such as [ISMIR 2021](https://ismir2021.ismir.net/papers/), [CogMIR 2019](http://www.cogmir.org/wp-content/uploads/2019/08/CogMIR-2019-Program-Schedule.pdf), [ICASSP 2021](https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/Papers/AcceptedPapers.html), or do a search on google scholar for keywords that better match your interests within the scope of this course. 
+    * Find and read research papers that align with your interests in the proceedings of conferneces such as [ISMIR 2021](https://ismir2021.ismir.net/papers/), [CogMIR 2019](http://www.cogmir.org/wp-content/uploads/2019/08/CogMIR-2019-Program-Schedule.pdf), [ICASSP 2021](https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/Papers/AcceptedPapers.html), [DAFX 2021](https://dafx2020.mdw.ac.at/proceedings/Proceedings_of_DAFx20in21.html), or do a search on google scholar for keywords that better match your interests within the scope of this course. 
 
 ___ 
 
