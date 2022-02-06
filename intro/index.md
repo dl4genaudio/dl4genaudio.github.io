@@ -14,10 +14,17 @@
     * Curating a [github](https://github.com/) repository with clear and intuitive code that you used/wrote to develop your research paper
     * Presenting your research project to the class at the end of the semester
 
+
+* Final grade breakdown
+    * 45% Homework\*
+    * 45% Final project (code, final presentation, and paper)
+    * 10% Participation in class and/or via the [course subreddit](https://reddit.com/r/deeplearningaudio)
+
 * Optional (but recommended if you have excelled at completing all course goals): submit your work to be included in an upcoming peer-reviewed publication, such as
     * [The ISMIR 2022 conference](https://ismir2022.ismir.net/)
     * [Special Issue of Computer Music Journal on Challenges and Perspectives of Latin American Computer Music](http://computermusicjournal.org/cmj-latin-america.html)
 
+\*your lowest two homework grades will be dropped.
 
 ## Example Generative models
 
