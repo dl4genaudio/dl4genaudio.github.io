@@ -32,6 +32,8 @@
     4. Define a matrix whose columns are the N eigenvectors that correspond to the principal components that we want to calculate (usually the first 2, 3, 4, etc.).
     5. Project the standardized dataset onto the matrix (via matrix dot product).
 
+* Besides PCA, there are other similar methods to reduce data dimensionality. Examples include [t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) or [UMAP](https://umap-learn.readthedocs.io/en/latest/basic_usage.html).
+
 # [Homework 3a: mirdata and PCA](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/pca.ipynb)
 
 # Homework 3b
