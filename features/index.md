@@ -38,7 +38,7 @@ The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectra
     * Get the log10 of the resulting values.
 5. Compute the Discrete Cosine Transform of each time-bin.
 
-## Dimensionality reduction via audio feature extraction
+## Dimensionality reduction via feature extraction
 
 The figure below shows the power of audio features to reduce the dimensionality of audio signals, which can help us visualize the differences between discrete categories of audio sources.
 
