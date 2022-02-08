@@ -36,7 +36,7 @@
 
 # [Homework 3a: mirdata and PCA](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/pca.ipynb)
 
-# Homework 3b
+# Homework 3b (read below for instructions)
 
 Next class, during the discussion session (if you come to class), you will tell us about three research papers you have read that relate to your research interests and the course material. 
 
@@ -44,9 +44,9 @@ You will have exactly 5 minutes to talk (if you come to class). You may use visu
 
 You must also write a 500 word post describing the three research papers you identified on the [course subreddit](https://www.reddit.com/r/deeplearningaudio/).
 
-Both due Feb 22nd at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
-
 Find and read research papers that align with your interests in the proceedings of conferneces such as [ISMIR 2021](https://ismir2021.ismir.net/papers/), [CogMIR 2019](http://www.cogmir.org/wp-content/uploads/2019/08/CogMIR-2019-Program-Schedule.pdf), [ICASSP 2021](https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/Papers/AcceptedPapers.html), [DAFX 2021](https://dafx2020.mdw.ac.at/proceedings/Proceedings_of_DAFx20in21.html), or do a search on google scholar for keywords that better match your interests within the scope of this course.
+
+Both due Feb 22nd at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ___
 
