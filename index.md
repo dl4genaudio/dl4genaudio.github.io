@@ -9,9 +9,9 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 
 ## Course content
 
-1. [Introduction and digital audio review](intro).
-2. [Audio features and musical objects](features).
-2. [Datasets and dimensionality reduction](pca_data).
+1. [Introduction and digital audio review](intro)
+2. [Audio features and musical objects](features)
+2. [Datasets and dimensionality reduction](pca_data)
 
 ## Prerequisites
 
