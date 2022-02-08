@@ -20,7 +20,7 @@ Idealy, computers shold be able to process as many dimensions in data as there a
 
 A good MIR engineer must be able to identify ways to reduce the dimensionality of signals to develop algorithms that can intelligently process data. Dimensionality reduction is achieved via mathematical functions that take multiple data dimensions and calculate a single value or a small groups of values that tell us how the dimensions are related to each other. More intelligent MIR algorithms are achieved by better mimicking the listening mechanisms of the brain or harnessing the mathematical properties of data. First, we will review ways to reduce the dimensionality by extracting spectral features from digital audio data.
 
-## Spectral features in time-series signals 
+## Feature extraction of time-series signals 
 
 To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features. Feature extraction consists of a function `f(x)` that transforms `x`, the time-series signal, into a lower-dimensional version. 
 
