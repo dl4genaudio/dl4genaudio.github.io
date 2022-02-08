@@ -22,9 +22,11 @@ A good MIR engineer must be able to identify ways to reduce the dimensionality o
 
 ## Spectral features in time-series signals 
 
-To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features, one example of which are spectral features. Examples of spectral features include the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). Familiarize yourself with all the [spectral (and other) features](https://librosa.org/doc/main/feature.html#spectral-features) that you can easily extract using librosa.
+To simplify handling of long time-series signals (like audio), researchers can reduce the dimensionality by extracting features. Feature extraction consists of a function `f(x)` that transforms `x`, the time-series signal, into a lower-dimensional version. 
 
-## Mel-frequency Cepstral Coefficients
+These features can be calculated directly on the time domain, for example the [zero-crossing rate](https://librosa.org/doc/main/generated/librosa.feature.zero_crossing_rate.html), or on the frequency domain, for example the [spectral centroid](https://librosa.org/doc/main/generated/librosa.feature.spectral_centroid.html), or the [spectral bandwidth](https://librosa.org/doc/main/generated/librosa.feature.spectral_bandwidth.html). Familiarize yourself with all the [spectral (and other) features](https://librosa.org/doc/main/feature.html#spectral-features) that you can easily extract using librosa.
+
+## Mel-frequency cepstral coefficients
 
 The Mel-frequency cepstral coefficients (MFCCs) are a set of very useful spectral features. MFCCs were designed to better represent how the human ear processes an audio signal (Mermelstein 1976). Experiments showed that humans tend to underestimate high frequency bandwidths compared to low frequency ones. Hence, MFCCs are obtained by filtering the spectrum of a signal with N equally-spaced frequency bands.
 
@@ -51,14 +53,13 @@ The figure plots a single feature (the spectral centroid), extracted from signal
 * Why did we say that a real-life object (such as a digitized audio signal) can be described by an infinite number of features?
 * Which other audio or time-series features do you know about and how do they work?
 
-# [Homework 2a: More DFT](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/dft.ipynb)
+# [Homework 2a: More DFT](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/more_dft.ipynb)
 # [Homework 2: Audio features](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/audio_features.ipynb)
 
 due Feb 15th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 * More things to do:
     * Find and read research papers that align with your interests in the proceedings of conferneces such as [ISMIR 2021](https://ismir2021.ismir.net/papers/), [CogMIR 2019](http://www.cogmir.org/wp-content/uploads/2019/08/CogMIR-2019-Program-Schedule.pdf), [ICASSP 2021](https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/Papers/AcceptedPapers.html), [DAFX 2021](https://dafx2020.mdw.ac.at/proceedings/Proceedings_of_DAFx20in21.html), or do a search on google scholar for keywords that better match your interests within the scope of this course.
-
 
 ___
 
