@@ -17,6 +17,8 @@
     * 10% Participation in class and/or via the [course subreddit](https://reddit.com/r/deeplearningaudio)
 * Optional (but recommended if you have excelled at completing all course goals): submit your work to be included in an upcoming peer-reviewed publication, such as
     * [The ISMIR 2022 conference](https://ismir2022.ismir.net/)
+    * [DAFX 2022](https://www.dafx.de/)
+    * [The Vienna Talk](https://viennatalk2020.mdw.ac.at/)
     * [Special Issue of Computer Music Journal on Challenges and Perspectives of Latin American Computer Music](http://computermusicjournal.org/cmj-latin-america.html)
 
 \*your lowest two homework grades will not be counted toward the final grade.
