@@ -40,7 +40,9 @@
 
 * We can use a simple method like gradient descent [(review if necessary)](https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931) to find the optimal <img src="https://render.githubusercontent.com/render/math?math=w"> and <img src="https://render.githubusercontent.com/render/math?math=b"> so that <img src="https://render.githubusercontent.com/render/math?math=J"> is as low as possible.
 
+# [Homework 4: Cross-validation and linear regression](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/cv_and_lr.ipynb)
 
+due Mar 1st at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 ___
 
 &copy; [Iran R. Roman](https://iranroman.github.io) 2022
