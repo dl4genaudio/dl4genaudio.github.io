@@ -36,9 +36,9 @@
 
 * To assess this model, we must assume there will be an error <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> that we will have to "tolerate", and find the variables <img src="https://render.githubusercontent.com/render/math?math=w"> and <img src="https://render.githubusercontent.com/render/math?math=b"> using the objective function <img src="https://render.githubusercontent.com/render/math?math=J = \frac{1}{2}\frac{1}{N} \sum_1^N (y_i - \hat{y_i})^2">, where <img src="https://render.githubusercontent.com/render/math?math=N"> is the number of datapoints we are using to calculate the objective, and <img src="https://render.githubusercontent.com/render/math?math=\hat{y_i} = wx_i + b">.
 
-* The objective function is effectively half the [mean squared error] <img src="https://render.githubusercontent.com/render/math?math= 2J = \sum_1^N \epsilon_i^2"> between our model prediction <img src="https://render.githubusercontent.com/render/math?math=\hat{y_i}"> and the ground-truth value <img src="https://render.githubusercontent.com/render/math?math=y_i">
+* The objective function is effectively half the [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) <img src="https://render.githubusercontent.com/render/math?math= 2J = \sum_1^N \epsilon_i^2"> between our model prediction <img src="https://render.githubusercontent.com/render/math?math=\hat{y_i}"> and the ground-truth value <img src="https://render.githubusercontent.com/render/math?math=y_i">.
 
-* We can use a simple method like gradient descent [(review if necessary)](https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931) to find the optimal <img src="https://render.githubusercontent.com/render/math?math=w"> and <img src="https://render.githubusercontent.com/render/math?math=b"> so that <img src="https://render.githubusercontent.com/render/math?math=J"> is as low as possible
+* We can use a simple method like gradient descent [(review if necessary)](https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931) to find the optimal <img src="https://render.githubusercontent.com/render/math?math=w"> and <img src="https://render.githubusercontent.com/render/math?math=b"> so that <img src="https://render.githubusercontent.com/render/math?math=J"> is as low as possible.
 
 
 ___
