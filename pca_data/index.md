@@ -22,7 +22,11 @@
 
 * The audio features we have studied so far are "hand-picked", which can result in a flawed research methodology (why?)
 
-* The [principal components analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) is a method to avoid "hand-picking". It can reduce the dimensionality of high-dimensional datapoints in a dataset by projecting the data onto a few vectors (i.e. dot product) that are orthogonal to each other, and each vector minimizes the mean squared error from the points.
+* The [principal components analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) is an unsupervised learning method to avoid "hand-picking". 
+
+* It is unsupervised because it can identify structure in data without introducing human bias.
+
+* PCA can reduce the dimensionality of high-dimensional datapoints in a dataset by projecting the data (via dot product) onto a few vectors that are orthogonal to each other, and each vector minimizes the mean squared error from the points.
 
 * The steps needed to carry out PCA (assuming all datapoints are stacked as rows in a matrix `X`) can be summarized as:
     1. Standardized the dataset by zero-centering the features and making their variance equal to 1. 
@@ -31,6 +35,10 @@
     3. Find the eigenvalues and eigenvectors of the resulting covariance matrix and sort them by size of the corresponding eigenvalue.
     4. Define a matrix whose columns are the N eigenvectors that correspond to the principal components that we want to calculate (usually the first 2, 3, 4, etc.).
     5. Project the standardized dataset onto the matrix (via matrix dot product).
+
+* The relative magnitude of the covariance matrix's eigenvalues represent the proportion of variance that each eigenvalue-eigenvector pair can capture in the data.
+
+* There are python libraries to carry out PCA without having to do all these steps by hand. The most popular implementation is [sklearn's PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html).
 
 * Besides PCA, there are other similar methods to reduce data dimensionality. Examples include [t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) or [UMAP](https://umap-learn.readthedocs.io/en/latest/basic_usage.html).
 
