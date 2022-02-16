@@ -11,8 +11,8 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 
 1. [Introduction and digital audio review](intro)
 2. [Audio features and musical objects](features)
-2. [Datasets and dimensionality reduction](pca_data)
-2. [Cross-validation and linear regression](cl_lr)
+3. [Datasets and dimensionality reduction](pca_data)
+4. [Cross-validation and linear regression](cv_lr)
 
 ## Prerequisites
 
