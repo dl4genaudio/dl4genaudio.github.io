@@ -11,8 +11,8 @@
 * Cross-validation is a simple and robust method to carefully use data to systematically analize how well a model can perform.
 
 * To carry out cross-validation, we must randomly split our data into two sets:
-    * A development with \~95\% of the data
-    * And a testing set, with \~5\% of the data 
+    * A development set with \~95% of the data
+    * And a testing set, with \~5% of the data 
         * We will save the testing set to assess our model (or models) at the very final testing phase of the development cycle.
 
 * Cross-validation further splits randomly the development data into a `C` number of folds (usually five) of equal size. 
