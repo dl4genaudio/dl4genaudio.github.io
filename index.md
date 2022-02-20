@@ -13,6 +13,7 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 2. [Audio features and musical objects](features)
 3. [Datasets and dimensionality reduction](pca_data)
 4. [Cross-validation and linear regression](cv_lr)
+5. [Logistic regression, binary cross-entropy, and evaluation metrics](lg_ce)
 
 ## Prerequisites
 
