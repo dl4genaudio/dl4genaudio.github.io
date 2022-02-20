@@ -29,24 +29,24 @@
 
 * For logistic regression we must use the binary cross-entropy loss, which is defined by <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum_{i=1}^{N} y_i log(\hat{y}_i) %2B (1-y_i)log(1-\hat{y}_i)"> (the origins of this function come from statistics. If you are curious, you should take or review the materials for an introductory machine learning class, like Stanford's [CS229](https://cs229.stanford.edu/notes2021fall/cs229-notes1.pdf)).
 
-* Inspecting the binary cross-entropy loss, you can see that when <img src="https://render.githubusercontent.com/render/math?math=y_i=0">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}^{N} \sum_{i=1}^{N} (1-y_i)log(1-\hat{y}_i)">. In contrast, when <img src="https://render.githubusercontent.com/render/math?math=y_i=1">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sumi_{i=1}^{N} y_ilog(\hat{y}_i)">.
+* Inspecting the binary cross-entropy loss, you can see that when <img src="https://render.githubusercontent.com/render/math?math=y_i=0">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum_{i=1}^{N} (1-y_i)log(1-\hat{y}_i)">. In contrast, when <img src="https://render.githubusercontent.com/render/math?math=y_i=1">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum_{i=1}^{N} y_ilog(\hat{y}_i)">.
 
 * When minimizing the binary cross-entropy loss using an algorithm like gradient descent, what we are effectively doing is making <img src="https://render.githubusercontent.com/render/math?math=y"> and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> as simiar to each other as possible.
 
 * Question: why does the binary cross-entropy loss have a negative sign at the beginning?
 
-## Error metrics
+## Error metrics for binary classification
 
-* When we are done optimizing our logistic regression model, we must evaluate it using our validation datasets (also, remember the evaluation data)?
+* When we are done optimizing our logistic regression model, we must evaluate it using our validation data splits (also, remember the evaluation data)?
 
-* It's very common practice to first calculate a [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix), which tells us the number of:
+* It's very common practice to calculate a [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix), which tells us the number of:
     * true positives
     * false negatives
     * false positives
     * true negatives
 
 * Having the confusion matrix, it is also easy to calculate the:
-    * accuracy
+    * overall model accuracy
     * true positive rate
     * true negative rate
     * false positive rate (type-i error)
