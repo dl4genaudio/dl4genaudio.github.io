@@ -17,7 +17,7 @@
 
 * The logistic regression formula is <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = \sigma(\theta) = \frac{1}{1+e^{-\theta}} \in \mathbb{R}^{N}">, where <img src="https://render.githubusercontent.com/render/math?math=\theta = Xw %2B b">.
 
-* Once we have transformed our features <img src="https://render.githubusercontent.com/render/math?math=X"> into <img src="https://render.githubusercontent.com/render/math?math=\theta = \hat{y}">, we can define a threshold (usually `0.5`) under (above) which all values in <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> will be treated as zeros (ones). 
+* Once we have transformed our features <img src="https://render.githubusercontent.com/render/math?math=X"> into <img src="https://render.githubusercontent.com/render/math?math=\hat{y}">, we can define a threshold (usually `0.5`) under (above) which all values in <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> will be treated as zeros (ones). 
 
 * With this procedure, we can assess the performance of our logistic regression model against the ground truth data <img src="https://render.githubusercontent.com/render/math?math=y">.
 
@@ -25,11 +25,11 @@
 
 ## Binary cross-entropy
 
-* Last class, when we optimized linear regression, we used the function <img src="https://render.githubusercontent.com/render/math?math=J = \frac{1}{2}\frac{1}{N} \sum_1^N (y_i - \hat{y_i})^2">.
+* Last class, when we optimized linear regression, we used the function <img src="https://render.githubusercontent.com/render/math?math=J = \frac{1}{2}\frac{1}{N} \sum_{i=1}^N (y_i - \hat{y_i})^2">.
 
-* For logistic regression we must use the binary cross-entropy loss, which is defined by <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum{i=1}^{N} y_i log(\hat{y}_i) %2B (1-y_i)log(1-\hat{y}_i)"> (the origins of this function come from statistics. If you are curious, you should take or review the materials for an introductory machine learning class, like Stanford's [CS229](https://cs229.stanford.edu/notes2021fall/cs229-notes1.pdf)).
+* For logistic regression we must use the binary cross-entropy loss, which is defined by <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum_{i=1}^{N} y_i log(\hat{y}_i) %2B (1-y_i)log(1-\hat{y}_i)"> (the origins of this function come from statistics. If you are curious, you should take or review the materials for an introductory machine learning class, like Stanford's [CS229](https://cs229.stanford.edu/notes2021fall/cs229-notes1.pdf)).
 
-* Inspecting the binary cross-entropy loss, you can see that when <img src="https://render.githubusercontent.com/render/math?math=y_i=0">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}^{N} \sum{i=1}{N} (1-y_i)log(1-\hat{y}_i)">. In contrast, when <img src="https://render.githubusercontent.com/render/math?math=y_i=1">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sum{i=1}^{N} y_ilog(\hat{y}_i)">.
+* Inspecting the binary cross-entropy loss, you can see that when <img src="https://render.githubusercontent.com/render/math?math=y_i=0">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}^{N} \sum_{i=1}^{N} (1-y_i)log(1-\hat{y}_i)">. In contrast, when <img src="https://render.githubusercontent.com/render/math?math=y_i=1">, <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N} \sumi_{i=1}^{N} y_ilog(\hat{y}_i)">.
 
 * When minimizing the binary cross-entropy loss using an algorithm like gradient descent, what we are effectively doing is making <img src="https://render.githubusercontent.com/render/math?math=y"> and <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> as simiar to each other as possible.
 
