@@ -3,7 +3,7 @@
 # Deep Learning for Music Information Retrieval: Generative Models
 <img src="assets/home.jpg" alt="drawing" width="1000"/>
 
-Official website for the graduate-level course covering the deep learning theory, literature, and practice applied to digital audio. More specifically, the course covers generative models (including autoencoders).
+Website for the graduate-level course covering the deep learning theory, literature, and practice applied to digital audio. More specifically, the course covers generative models (including autoencoders).
 
 Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.mx/) during the spring semester of 2022 (January 31st - May 27th) by [Iran R. Roman](https://iranroman.github.io).
 
