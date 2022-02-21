@@ -6,7 +6,7 @@
 
 * Last class we talked about how we can use linear regression to model linear relationships between features <img src="https://render.githubusercontent.com/render/math?math=X \in \mathbb{R}^{N\times D}"> and a target <img src="https://render.githubusercontent.com/render/math?math=Y \in \mathbb{R}^{N}">.
 
-* But not all relationships between features and targets are linear. Sometimes the relationship is categorical (i.e. different instruments and different musical genres).
+* But not all relationships between features and targets are linear. Sometimes the relationship is categorical (i.e. different instruments, or different musical genres).
 
 * Now picture this scenario:
     * You have <img src="https://render.githubusercontent.com/render/math?math=N"> datapoints, each with <img src="https://render.githubusercontent.com/render/math?math=D"> features, and you have organized them in a matrix <img src="https://render.githubusercontent.com/render/math?math=X \in \mathbb{R}^{N\times D}">.
@@ -54,6 +54,7 @@
 
 * Error metrics are essential to interpret how our model performs on the different data splits of cross-validation.
 
+# [Homework 5: Optimizing and evaluating logistic regression](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/logistic_regression.ipynb)
 
 ___
 
