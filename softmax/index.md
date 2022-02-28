@@ -29,7 +29,7 @@
 
 * The equation of softmax is <img src="https://render.githubusercontent.com/render/math?math=softmax(\theta_i) = \frac{e^{\theta_i}}{\sum_je^{\theta_i}} \in \mathbb{R}^{1xC}">
 
-* If we want to use softmax to classify datapoints <img src="https://render.githubusercontent.com/render/math?math=x_i \in \mathbb{R}^{1xD}">, then <img src="https://render.githubusercontent.com/render/math?math= \theta_i = x_iW - max_j(x_iW) \in \mathbb{R}^{1xC}"> (where <img src="https://render.githubusercontent.com/render/math?math=max(x_iW)"> is subtracted for computational stability purposes) and <img src="https://render.githubusercontent.com/render/math?math=W \in \mathbb{R}^{DxC}"> is our matrix with the parameters we are using for classification.
+* If we want to use softmax to classify datapoints <img src="https://render.githubusercontent.com/render/math?math=x_i \in \mathbb{R}^{1xD}">, then <img src="https://render.githubusercontent.com/render/math?math=\theta_i = x_iW - max_j(x_iW) \in \mathbb{R}^{1xC}"> (where <img src="https://render.githubusercontent.com/render/math?math=max(x_iW)"> is subtracted for computational stability purposes) and <img src="https://render.githubusercontent.com/render/math?math=W \in \mathbb{R}^{DxC}"> is our matrix with the parameters we are optimizing to carry out classification.
 
 ## Cross-entropy loss
 
@@ -45,7 +45,7 @@
 
 * This is due to the objective function being only constrained by the comparison between a predicted value <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i"> and its ground truth <img src="https://render.githubusercontent.com/render/math?math=y_i">.
 
-* We can add a term to the loss to regularize the parameters `W`, so that we impose a condition over the type of values that can be present in `W`. The most common type of regularization is the squared L2 norm <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ysoftmax(x_iW) + \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2"> 
+* We can add a term to the loss to regularize the parameters <img src="https://render.githubusercontent.com/render/math?math=W">, so that we impose a condition over the type of values that can be present in <img src="https://render.githubusercontent.com/render/math?math=W">. The most common type of regularization is the squared L2 norm <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ysoftmax(x_iW) + \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization stregth" term.
 
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
