@@ -45,7 +45,7 @@
 
 * This is due to the objective function being only constrained by the comparison between a predicted value <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i"> and its ground truth <img src="https://render.githubusercontent.com/render/math?math=y_i">.
 
-* We can add a term to the loss to regularize the parameters <img src="https://render.githubusercontent.com/render/math?math=W">, so that we impose a condition over the type of values that can be present in <img src="https://render.githubusercontent.com/render/math?math=W">. The most common type of regularization is the squared L2 norm <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ysoftmax(x_iW) + \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization stregth" term.
+* We can add a term to the loss to regularize the parameters <img src="https://render.githubusercontent.com/render/math?math=W">, so that we impose a condition over the type of values that can be present in <img src="https://render.githubusercontent.com/render/math?math=W">. The most common type of regularization is the squared L2 norm <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ysoftmax(x_iW) %2B \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization stregth" term.
 
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
