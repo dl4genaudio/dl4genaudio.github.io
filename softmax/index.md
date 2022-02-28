@@ -16,7 +16,7 @@
 
 * The Persian Consonant Vowel Combination (PCVC) dataset contains audio for persian vowels, pronounced in combination with a preceding consonant. 
 
-<img src="https://github.com/smalekz/PCVC/blob/master/Images/PhonemeList.JPG" alt="drawing" width="100"/>
+<img src="https://github.com/smalekz/PCVC/blob/master/Images/PhonemeList.JPG" alt="drawing" width="250"/>
 
 * Imagine that we want to use this dataset to develop a classification algorithm that can hear and identify which persian vowel is being said. 
 
