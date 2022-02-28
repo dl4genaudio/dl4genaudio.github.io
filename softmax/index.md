@@ -47,7 +47,7 @@
 
 * We can add a term to the loss to regularize the parameters <img src="https://render.githubusercontent.com/render/math?math=W">, so that we impose a condition over the type of values that can be present in <img src="https://render.githubusercontent.com/render/math?math=W">. 
 
-* The most common type of regularization is the squared L2 norm, which results in the loss function <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ylog(x_iW) %2B \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization stregth" term.
+* The most common type of regularization is the squared L2 norm, which results in the loss function <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ylog(x_iW) %2B \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization strength" term.
 
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
