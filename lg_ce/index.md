@@ -57,6 +57,7 @@
 # [Homework 5: Optimizing and evaluating logistic regression](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/logistic_regression.ipynb)
 
 Due Mar 8th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+
 ___
 
 &copy; [Iran R. Roman](https://iranroman.github.io) 2022
