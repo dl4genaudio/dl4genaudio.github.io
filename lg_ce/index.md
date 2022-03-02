@@ -10,12 +10,12 @@
 
 * Now picture this scenario:
     * You have <img src="https://render.githubusercontent.com/render/math?math=N"> datapoints, each with <img src="https://render.githubusercontent.com/render/math?math=D"> features, and you have organized them in a matrix <img src="https://render.githubusercontent.com/render/math?math=X \in \mathbb{R}^{N\times D}">.
-    * Half of these datapoints have features extracted from instrument tones that were played with musical <img src="https://render.githubusercontent.com/render/math?math=pp"> dynamics, while the other half were extracted from instrument tones that were played with musical <img src="https://render.githubusercontent.com/render/math?math=ff"> dynamics. 
-    * You also have a vector <img src="https://render.githubusercontent.com/render/math?math=Y \in \mathbb{R}^{N}">, which is filled with zeros or ones, with each "zero" indicating that the features in the corresponding row of <img src="https://render.githubusercontent.com/render/math?math=X \in \mathbb{R}^{N\times D}"> were extracted from a tone played with <img src="https://render.githubusercontent.com/render/math?math=pp"> dynamics, and each "one" indicating <img src="https://render.githubusercontent.com/render/math?math=ff"> dynamics.
+    * Half of these datapoints have features extracted from Violin tones, while the other half were extracted from Bass Tuba tones. 
+    * You also have a vector <img src="https://render.githubusercontent.com/render/math?math=Y \in \mathbb{R}^{N}">, which is filled with zeros or ones, with each "zero" indicating that the features in the corresponding row of <img src="https://render.githubusercontent.com/render/math?math=X \in \mathbb{R}^{N\times D}"> were extracted from a Violin tone, and each "one" indicating Bass Tuba.
 
 * You can use the logistic regression formula to find a vector <img src="https://render.githubusercontent.com/render/math?math=w \in \mathbb{R}^{D}"> and a bias term <img src="https://render.githubusercontent.com/render/math?math=b \in \mathbb{R}^{1}"> that allow you to transform the features into values between <img src="https://render.githubusercontent.com/render/math?math=0"> and <img src="https://render.githubusercontent.com/render/math?math=1">. 
 
-* The logistic regression formula is <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = \sigma(\theta) = \frac{1}{1+e^{-\theta}} \in \mathbb{R}^{N}">, where <img src="https://render.githubusercontent.com/render/math?math=\theta = Xw %2B b">.
+* The logistic regression formula is <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = \sigma(\theta) = \frac{1}{1 %2B e^{-\theta}} \in \mathbb{R}^{N}">, where <img src="https://render.githubusercontent.com/render/math?math=\theta = Xw %2B b">.
 
 * Once we have transformed our features <img src="https://render.githubusercontent.com/render/math?math=X"> into <img src="https://render.githubusercontent.com/render/math?math=\hat{y}">, we can define a threshold (usually `0.5`) under (above) which all values in <img src="https://render.githubusercontent.com/render/math?math=\hat{y}"> will be treated as zeros (ones). 
 
@@ -56,6 +56,7 @@
 
 # [Homework 5: Optimizing and evaluating logistic regression](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/logistic_regression.ipynb)
 
+Due Mar 8th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 ___
 
 &copy; [Iran R. Roman](https://iranroman.github.io) 2022
