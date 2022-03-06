@@ -14,9 +14,7 @@
 
 ## The [PCVC speech](https://www.kaggle.com/sabermalek/pcvcspeech) dataset
 
-* The Persian Consonant Vowel Combination (PCVC) dataset contains audio for persian vowels, pronounced in combination with a preceding consonant. 
-
-<img src="https://github.com/smalekz/PCVC/blob/master/Images/PhonemeList.JPG" alt="drawing" width="250"/>
+* The Persian Consonant Vowel Combination (PCVC) dataset contains audio for [persian vowels, pronounced in combination with a preceding consonant](https://github.com/smalekz/PCVC/blob/master/Images/PhonemeList.JPG).
 
 * Imagine that we want to use this dataset to develop a classification algorithm that can hear and identify which persian vowel is being said. 
 
@@ -52,6 +50,33 @@
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
 Due Mar 16 at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+
+## Audio standarization
+
+* In this homework you will work with raw audio signals. 
+
+* Standardizing audio signals is challenging when the number of datapoints is limited. 
+
+* What would happen if we standardize a raw audio samples as we standardized other features?
+
+* As a result, our standarization will have to be different.
+
+* For this assignment, we will standardize each datapoint to have samples with zero mean and floating-point values normalized to be in range of `-1` and `1`.
+    * Why is this a good standarization when datapoints are limited?
+
+## Data augmentation
+
+* When training data is limited, we can use a few techniques to expand the number of datapoints. 
+
+* To expand the number of audio datapoints we can create copy of the training data to:
+    * mix it with different levels of noise to simulate "noisy" samples.
+        * noise can also be added as a series of bursts instead of using uniform noise across samples in a datapoint.
+    * shift the pitch of each datapoint using an effect like [`librosa.effects.pitch_shift`](http://librosa.org/doc/main/generated/librosa.effects.pitch_shift.html).
+    * convolve with an impulse response to simulate different acoustic conditions.
+    * filter with diverse types of digital filters.
+    * compress with an audio format like mp3.
+
+* The project [`audiomentations`](https://github.com/iver56/audiomentations) provides you with readily-available functions to augment audio data to train algorithms. 
 
 ___
 
