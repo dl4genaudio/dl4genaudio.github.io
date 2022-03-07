@@ -49,7 +49,7 @@
 
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
-Due Mar 16 at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+Due Mar 15 at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ## Audio standarization
 

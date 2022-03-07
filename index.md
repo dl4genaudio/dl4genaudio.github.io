@@ -15,6 +15,7 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 4. [Cross-validation and linear regression](cv_lr)
 5. [Logistic regression, binary cross-entropy, and evaluation metrics](lg_ce)
 6. [Softmax classification](softmax)
+7. [Feedforward neural networks](neural_network)
 
 ## Prerequisites
 
