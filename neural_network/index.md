@@ -2,7 +2,7 @@
 
 # Feedforward neural networks
 
-## Recapituation of systems studied thus far
+## Recapituation of supervised learning systems studied thus far
 
 * We have studied how linear regression can help us predict continuous values via a linear relationship with a set of features.
 
