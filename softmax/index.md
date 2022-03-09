@@ -66,7 +66,7 @@ When you are done, you MUST post a picture on our [course subreddit](https://www
 * As a result, our standarization will have to be different.
 
 * For this assignment, we will standardize each datapoint to have samples with zero mean and floating-point values normalized to be in range of `-1` and `1`.
-    * Why is this a good standarization when datapoints are limited?
+    * Why is this a good standarization when working with raw audio (specially when datapoints are limited)?
 
 ## Data augmentation
 
