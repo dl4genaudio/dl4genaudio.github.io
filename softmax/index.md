@@ -47,11 +47,15 @@
 
 * The most common type of regularization is the squared L2 norm, which results in the loss function <img src="https://render.githubusercontent.com/render/math?math=J = -\frac{1}{N}\sum_{i=1}^{N}ylog(x_iW) %2B \lambda\sum_{d=1}^{D}\sum_{c=1}^{C}W^2">, where <img src="https://render.githubusercontent.com/render/math?math=\lambda"> is the "regularization strength" term.
 
+* There are [other types of regularizaton](https://en.wikipedia.org/wiki/Regularization_(mathematics)) though.
+
 # [Homework 6: softmax](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/softmax.ipynb)
 
 Due Mar 15 at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
-## Audio standarization
+When you are done, you MUST post a picture on our [course subreddit](https://www.reddit.com/r/deeplearningaudio/) with the performance and confusion matrix you got on the evaluation set ([example](https://www.reddit.com/r/deeplearningaudio/comments/t9ysap/this_is_the_model_performance_that_you_should/))
+
+## Raw audio standarization
 
 * In this homework you will work with raw audio signals. 
 
@@ -76,7 +80,7 @@ Due Mar 15 at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/
     * filter with diverse types of digital filters.
     * compress with an audio format like mp3.
 
-* The project [`audiomentations`](https://github.com/iver56/audiomentations) provides you with readily-available functions to augment audio data to train algorithms. 
+* The project [`audiomentations`](https://github.com/iver56/audiomentations) provides you with readily-available functions to augment audio data. 
 
 ___
 
