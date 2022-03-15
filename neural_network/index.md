@@ -72,7 +72,20 @@
 * Create a subreddit post with the information that you will share in class.
 * IMPORTANT: you may only use the figure in the paper with the model architecture.
 
-Both due Mar 22th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+# Homework 7c (read below for details)
+
+* Next class we will have a guest speaker
+    * [Julia Wilkins](https://steinhardt.nyu.edu/people/julia-wilkins) (PhD student at NYU) will talk to us about her research.
+    * She will focus her presentation on this paper: [VocalSet](https://pseeth.github.io/public/papers/wilkins_seetharaman_ismir18.pdf)
+    * Read Julia's paper in detail, but focus on the part that covers the model architecture and results. 
+    * On our course subreddit, there is a thread to discuss Julia's paper. 
+    * You must post two questions you have after reading the paper. 
+    * Do not repeat questions that have already been asked.
+    * The sooner you post, the less likely it will be that somebody else already asked your question. 
+    * You must also try to answer at least one of the questions asked by your peers.
+
+
+All three due Mar 22th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ___
 
