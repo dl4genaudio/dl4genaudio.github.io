@@ -70,7 +70,7 @@
     * In two or three sentences, explain what the inputs and outputs of the model are.
     * Walk us through the model architecure (i.e. what does each block, arrow, color, etc. in the figure represent?).
 * Create a subreddit post with the information that you will share in class.
-* IMPORTANT: you may only use the figure in the paper with the model architecture.
+* IMPORTANT: in your post/presentation you may only use the figure in the paper with the model architecture.
 
 # Homework 7c (read below for details)
 
