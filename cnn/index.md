@@ -1,12 +1,12 @@
-| [Homepage](https://dl4genaudio.github.io) | [Course content](https://dl4genaudio.github.io/#course-content) | [Spanish](https://dl4genaudio-github-io.translate.goog/neural_network/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp) |
+| [Homepage](https://dl4genaudio.github.io) | [Course content](https://dl4genaudio.github.io/#course-content) | [Spanish](https://dl4genaudio-github-io.translate.goog/cnn/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp) |
 
-# Building and optimizing a convolutional neural network (CNN)
+# Convolutional Neural Networks (CNNs)
 
 ## Representing data as tensors
 
 * So far, the data we put in a neural network has looked like a matrix `NxD`, where `N` is the number of datapoints we are using to do a gradient descent step, and `D` is the number of features in each datapoint. 
 
-* Instead of matrices, we can use tensors to represent data with more dimensions. For example, a tensor can be used to represent datapoints that are magnitude spectrograms with dimensions `NxTxF`, where `TW` is the number of time bins in each datapoint, and `F` the number of frequency bins.
+* Instead of matrices, we can use tensors to represent data with more dimensions. For example, a tensor can be used to represent datapoints that are magnitude spectrograms with dimensions `NxTxF`, where `T` is the number of time bins in each datapoint, and `F` the number of frequency bins.
 
 * We can also use a tensor to represent datapoints as complex spectrograms if we separate the real and imaginary parts and stack them to obtain a tensor of shape `NxTxFxC`, where `C=2` and each `C` is a "channel", with channel 1 being the real part and channel 2 being the imaginary part of the complex spectrogram. 
 
@@ -50,26 +50,27 @@
 
 
 # Homework 8a: continue working with your assigned paper from last class
-    * Due Mar 24. In your reddit post, answer:
-        * What research question are they trying to answer?
-        * What dataset did they use and why is this a good/bad selection?
-        * How did they split the data into training, validation, and test sets?
-    * Due Mar 25. In your reddit post, answer:
-        * Which different experiments did they carry out to showcase what their model does?
-        * How did they train their model?
-            * What optimizer did they use?
-            * What loss function did they use?
-            * What metric did they use to measure model performance?
-        * What baseline method/model are they comparing against?
-    * Due Mar 26. In your reddit post, answer
-        * What results did they obtain with their model and how does this compare against the baseline?
-        * What would you do to:
-            * Develop an even better model
-            * Use their model in an applied setting
-        * What criticisms do you have about the paper?
-    * Due Mar 28. In your reddit post.
-        * Link to a slideshow (use 10-15 slides) where you use all the grahics and text you need to present this paper to your classmates.
-    * Due Mar 30 during class: deliver a high-quality "journal-clib" presentation of the paper
+
+* Due Mar 24. In your reddit post, answer:
+    * What research question are they trying to answer?
+    * What dataset did they use and why is this a good/bad selection?
+    * How did they split the data into training, validation, and test sets?
+* Due Mar 25. In your reddit post, answer:
+    * Which different experiments did they carry out to showcase what their model does?
+    * How did they train their model?
+        * What optimizer did they use?
+        * What loss function did they use?
+        * What metric did they use to measure model performance?
+    * What baseline method/model are they comparing against?
+* Due Mar 26. In your reddit post, answer
+    * What results did they obtain with their model and how does this compare against the baseline?
+    * What would you do to:
+        * Develop an even better model
+        * Use their model in an applied setting
+    * What criticisms do you have about the paper?
+* Due Mar 28. In your reddit post.
+    * Link to a slideshow (use 10-15 slides) where you use all the grahics and text you need to present this paper to your classmates.
+* Due Mar 30 during class: deliver a high-quality "journal-club" presentation of the paper
     
         
 # Homework 8b (due March 29)
@@ -78,7 +79,7 @@
     * [Jessica Torres-Soto](https://jntorres.github.io) (Stanford PhD Alumna) will talk to us about her research.
     * She will focus her presentation on this paper: [Multi-task deep learning for cardiac rhythm detection in wearable devices](https://www.nature.com/articles/s41746-020-00320-4)
     * Read Jessica's paper in detail, but focus on the part that covers the model architecture and results. 
-    * On our course subreddit, there is a thread to discuss Jessicaa's paper. 
+    * On our course subreddit, there is a thread to discuss Jessica's paper. 
     * You must post two questions you have after reading the paper. 
     * Do not repeat questions that have already been asked.
     * The sooner you post, the less likely it will be that somebody else already asked your question. 
