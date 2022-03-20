@@ -27,7 +27,7 @@
 
 * If we used this hidden state with the systems we have studied so far in this class, their equations would be:
     * Linear regression neural network <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i = h_iW %2B b \in \mathbb{R}^{1x1}">
-    * Logistic regression neural network <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i = \sigma(h_iW %2B b) = \frac{1}{1 %2B e^{-(x_iW %2B b)}} \in \mathbb{R}^{1x1}">
+    * Logistic regression neural network <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i = \sigma(h_iW %2B b) = \frac{1}{1 %2B e^{-(h_iW %2B b)}} \in \mathbb{R}^{1x1}">
     * Softmax neural network <img src="https://render.githubusercontent.com/render/math?math=\hat{y}_i=softmax(h_iW %2B b) = \frac{e^{h_iW %2B b}}{\sum_je^{h_iW %2B b}} \in \mathbb{R}^{1xC}">
 
 * These equations represent three different neural networks, each of which could be used for different tasks and applications.
