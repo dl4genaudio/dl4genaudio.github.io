@@ -51,18 +51,18 @@
 
 # Homework 8a: continue working with your assigned paper from last class
 
-* Due Mar 24. In your reddit post, answer:
+* Due Mar 23. In your reddit post, answer:
     * What research question are they trying to answer?
     * What dataset did they use and why is this a good/bad selection?
     * How did they split the data into training, validation, and test sets?
-* Due Mar 25. In your reddit post, answer:
+* Due Mar 24. In your reddit post, answer:
     * Which different experiments did they carry out to showcase what their model does?
     * How did they train their model?
         * What optimizer did they use?
         * What loss function did they use?
         * What metric did they use to measure model performance?
     * What baseline method/model are they comparing against?
-* Due Mar 26. In your reddit post, answer
+* Due Mar 25. In your reddit post, answer
     * What results did they obtain with their model and how does this compare against the baseline?
     * What would you do to:
         * Develop an even better model
