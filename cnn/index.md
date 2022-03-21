@@ -44,7 +44,7 @@
 
 * Armed with all of this information, let's understand together the first CNN ever: the [LeNet](https://www.datasciencecentral.com/lenet-5-a-classic-cnn-architecture/)
 
-## CNN regulatization with dropout and batch norm
+## CNN regulatization with dropout and batchnorm
 
 ## The Adam optimization algorithm
 
@@ -87,14 +87,14 @@
 
 # [Homework 8c: Convolutional neural network](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/cnn.ipynb)
 
-Due April 6th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+Due April 5th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 # Homework 8d (due April 5)
 
 * On April 6, we will have a guest speaker
     * [Hugo Flores](https://hugofloresgarcia.github.io/) (Northwestern University PhD candidate) will talk to us about his research.
     * He will focus his presentation on these two papers: 
-        * [Deep Learning Tools for Audacity: Helping Researchers Expand the Artist’s Toolkit](https://arxiv.org/pdf/2110.13323.pdf)
+        * [Deep learning tools for audacity: helping researchers expand the artist’s toolkit](https://arxiv.org/pdf/2110.13323.pdf)
         * [Leveraging hierarchical structures for few-shot musical instrument recognition](https://arxiv.org/pdf/2107.07029.pdf)
     * Read one (or both) of Hugo's papers in detail, but focus on the part that covers the model architecture and results. 
     * On our course subreddit, there is a thread to discuss Hugo's papers. 
