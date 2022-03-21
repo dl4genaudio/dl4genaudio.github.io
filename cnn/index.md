@@ -87,7 +87,22 @@
 
 # [Homework 8c: Convolutional neural network](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/cnn.ipynb)
 
-* Due April 6th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+Due April 6th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
+
+# Homework 8d (due April 5)
+
+* On April 6, we will have a guest speaker
+    * [Hugo Flores](https://hugofloresgarcia.github.io/) (Northwestern University PhD candidate) will talk to us about his research.
+    * He will focus his presentation on these two papers: 
+        * [Deep Learning Tools for Audacity: Helping Researchers Expand the Artist’s Toolkit](https://arxiv.org/pdf/2110.13323.pdf)
+        * [Leveraging hierarchical structures for few-shot musical instrument recognition](https://arxiv.org/pdf/2107.07029.pdf)
+    * Read one (or both) of Hugo's papers in detail, but focus on the part that covers the model architecture and results. 
+    * On our course subreddit, there is a thread to discuss Hugo's papers. 
+    * You must post two questions you have after reading one (or both) of the papers. 
+    * Do not repeat questions that have already been asked.
+    * The sooner you post, the less likely it will be that somebody else already asked your question. 
+    * You must also try to answer at least one of the questions asked by your peers.
+
 
 ___
 
