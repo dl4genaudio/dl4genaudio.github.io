@@ -107,27 +107,27 @@ Due April 5th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/ti
 
 Submit a final project proposal where you address ALL of the following questions with as much detail as possible:
 
-    * What research question are you trying to answer?
-    * Who else has asked a similar research question? 
-        * List at least 5 relevant papers you have read
-        * Give a brief summary of each
-    * What dataset(s) will you use and why is this a good/bad selection?
-        * How will you split your data for training?
-            * include number of datapoints in each split 
-            * which features present in the data will you use?
-            * what labels present in the data will you use?
-    * What model architecture will you use and why?
-        * What are the inputs?
-        * What are the outputs?
-    * Which different experiments will you carry out to showcase what your model does?
-    * How will you train your model?
-        * What optimizer will you use?
-        * What loss function will you use?
-        * What metric will you use to measure model performance?
-    * What baseline method/model will you compare your model against?
-    * What results do you expect to get?
-        * Include mock figures showing how you will visualize the results that you expect.
-        * Include at least one figure from another paper that you will reproduce using your model.
+* What research question are you trying to answer?
+* Who else has asked a similar research question? 
+    * List at least 5 relevant papers you have read
+    * Give a brief summary of each
+* What dataset(s) will you use and why is this a good/bad selection?
+    * How will you split your data for training?
+        * include number of datapoints in each split 
+        * which features present in the data will you use?
+        * what labels present in the data will you use?
+* What model architecture will you use and why?
+    * What are the inputs?
+    * What are the outputs?
+* Which different experiments will you carry out to showcase what your model does?
+* How will you train your model?
+    * What optimizer will you use?
+    * What loss function will you use?
+    * What metric will you use to measure model performance?
+* What baseline method/model will you compare your model against?
+* What results do you expect to get?
+    * Include mock figures showing how you will visualize the results that you expect.
+    * Include at least one figure from another paper that you will reproduce using your model.
 
 ___
 
