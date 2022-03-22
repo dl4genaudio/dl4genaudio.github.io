@@ -106,6 +106,7 @@ Due April 5th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/ti
 # Homework 8e (due April 6)
 
 Submit a final project proposal where you address ALL of the following questions with as much detail as possible:
+
     * What research question are you trying to answer?
     * Who else has asked a similar research question? 
         * List at least 5 relevant papers you have read
