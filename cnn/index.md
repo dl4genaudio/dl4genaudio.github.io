@@ -18,7 +18,7 @@
 
 * 2D CNN operations were developed by [Yann LeCunn](https://en.wikipedia.org/wiki/Yann_LeCun) in the late 80s, and work as follows:
     * Do NOT flatten the image tensor and leave it in the form `NxTxFxC`
-    * Use `M` filters with shape `KxLxC` to convolve with each datapoint ([visualize convolution here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1))
+    * Use `M` filters with shape `KxLxC` to convolve with each datapoint ([visualize convolution here](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1) and [here](https://setosa.io/ev/image-kernels/))
         * `K<=T`, `L<=F`
     * Add `M` biases, one for each of the `M` filters
     * Apply a non-linearity to the output.
