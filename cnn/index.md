@@ -38,11 +38,13 @@
 
 ## From CNN features to a neural network output
 
-* After a series of convolution+pooling operations, the hidden layers must be reshaped into a matrix form (via a flattening operator) to use the usual dense layers in a neural network and produce and output. 
+* After a series of convolution+pooling operations, the CNN hidden layer tensors must be reshaped into a matrix form (via a flattening operator) to use the usual dense layers in a neural network and produce and output. 
 
 * As a result, a CNN can have a final ourput that is either a classifier (using softmax and cross entropy), a regressor (using a linear layer and MSE) or any other output+cost-function pair you like.
 
 * Armed with all of this information, let's understand together the first CNN ever: the [LeNet](https://www.datasciencecentral.com/lenet-5-a-classic-cnn-architecture/)
+
+## CNN filter initialization
 
 ## CNN regulatization with dropout and batchnorm
 
