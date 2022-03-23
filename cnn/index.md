@@ -85,11 +85,11 @@
     * The sooner you post, the less likely it will be that somebody else already asked your question. 
     * You must also try to answer at least one of the questions asked by your peers.
 
-# [Homework 8c: Convolutional neural network](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/cnn.ipynb)
+# [Homework 9a: Convolutional neural network](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/cnn.ipynb)
 
 Due April 5th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
-# Homework 8d (due April 5)
+# Homework 9b (due April 5)
 
 * On April 6, we will have a guest speaker
     * [Hugo Flores](https://hugofloresgarcia.github.io/) (Northwestern University PhD candidate) will talk to us about his research.
@@ -103,7 +103,7 @@ Due April 5th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/ti
     * The sooner you post, the less likely it will be that somebody else already asked your question. 
     * You must also try to answer at least one of the questions asked by your peers.
 
-# Homework 8e (due April 6)
+# Homework 10a (due April 6)
 
 Submit a final project proposal where you address ALL of the following questions with as much detail as possible:
 
