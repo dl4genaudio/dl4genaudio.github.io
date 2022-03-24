@@ -10,7 +10,7 @@
 
 * We can also use a tensor to represent datapoints as complex spectrograms if we separate the real and imaginary parts and stack them to obtain a tensor of shape `NxTxFxC`, where `C=2` and each `C` is a "channel", with channel 1 being the real part and channel 2 being the imaginary part of the complex spectrogram. 
 
-## CNN operations
+## Generic CNN operations
 
 * To understand how CNNs work, we must understand their origins in image recognition.
 
@@ -40,7 +40,7 @@
 
 * After a series of convolution+pooling operations, the CNN hidden layer tensors must be reshaped into a matrix form (via a flattening operator) to use the usual dense layers in a neural network and produce and output. 
 
-* As a result, a CNN can have a final ourput that is either a classifier (using softmax and cross entropy), a regressor (using a linear layer and MSE) or any other output+cost-function pair you like.
+* As a result, a CNN can have a final output that is either a classifier (using softmax and cross entropy), a regressor (using a linear layer and MSE) or any other output+cost-function pair you like.
 
 * Armed with all of this information, let's understand together the first CNN ever: the [LeNet](https://www.datasciencecentral.com/lenet-5-a-classic-cnn-architecture/)
 
