@@ -31,7 +31,7 @@
 # Homework 11a (due April 19)
 
 * Next class we will have a guest speaker
-    * [Magdalena Fuentes](https://magdalenafuentes.github.io/) (NYU postdoctoral fellowa) will talk to us about her research.
+    * [Magdalena Fuentes](https://magdalenafuentes.github.io/) (NYU postdoctoral fellow) will talk to us about her research.
     * She will focus her presentation on these papes: 
         * TBD
         * TBD
