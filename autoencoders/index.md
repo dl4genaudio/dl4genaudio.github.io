@@ -44,6 +44,7 @@
 
 # [Homework 11b: show us your data](https://colab.research.google.com/github/dl4genaudio/assignments/blob/main/your_data.ipynb)
 
+Due April 19th at 11:59PM ([Eastern Standard Time](https://www.timeanddate.com/time/zones/et))
 
 ___
 
