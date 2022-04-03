@@ -17,7 +17,7 @@ Taught at the National Autonomous University of Mexico [UNAM](https://www.unam.m
 6. [Softmax classification](softmax)
 7. [Feedforward neural networks](neural_network)
 8. [CNNs and optimization techniques](cnn)
-9. [Autoencoders]()
+9. [Autoencoders](autoencoders)
 10. [VAEs and GANs]()
 11. [Transformers and RNNs]()
 

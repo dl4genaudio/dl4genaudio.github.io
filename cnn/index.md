@@ -71,7 +71,7 @@
         * Use their model in an applied setting
     * What criticisms do you have about the paper?
 * Due Mar 28. In your reddit post.
-    * Link to a slideshow (use 10-15 slides) where you use all the grahics and text you need to present this paper to your classmates.
+    * Link to a slideshow (use 10-15 slides) where you use all the graphics and text you need to present this paper to your classmates.
 * Due Mar 30 during class: deliver a high-quality "journal-club" presentation of the paper
     
         
